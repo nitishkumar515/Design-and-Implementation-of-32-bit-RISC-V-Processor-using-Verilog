@@ -50,7 +50,7 @@ This project provides an insight into the working of a few important instruction
 
  ```
  $ git clone https://github.com/nitishkumar515/Design-and-Implementation-of-32-bit-RISC-V-Processor-using-Verilog
- $ cd iiitb_rv32i
+ $ cd IIITB_rv32i
  ```
 - **To simulate and run the verilog code , enter the following commands in your terminal.**
 
