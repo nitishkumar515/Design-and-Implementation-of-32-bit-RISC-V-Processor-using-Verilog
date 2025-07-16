@@ -1,6 +1,6 @@
-## Design-and-Implementation-of-32-bit-RISC-V-Processor-using-Verilog
+# Design-and-Implementation-of-32-bit-RISC-V-Processor-using-Verilog
 
-# Table of contents
+## Table of contents
  - [1.RISC-V RV32I](#1-RISC-V-RV32I)
  - [2.BLOCK DIAGRAM OF RISC-V RV32I](#2-BLOCK-DIAGRAM-OF-RISC-V-RV32I)
  - [3.INSTRUCTION SET OF RISC-V RV32I](#3-INSTRUCTION-SET-OF-RISC-V-RV32I)
