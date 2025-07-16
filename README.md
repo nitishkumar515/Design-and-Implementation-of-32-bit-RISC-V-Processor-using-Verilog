@@ -446,27 +446,6 @@ Here we are going to customise our layout by including our custom made **sky130_
          ![slack_](https://user-images.githubusercontent.com/110079631/187498925-0801624a-c7d9-4e1a-aadc-bb026025a17a.png)
 
 
-  - ***7 . CLOCK TREE SYNTHESIS***
-         
-      * **1. The purpose** of building a clock tree is enable the clock input to reach every element and to ensure a zero clock skew. H-tree is a common methodology followed in CTS.
-        Before attempting a CTS run in TritonCTS tool, if the slack was attempted to be reduced in previous run, the netlist may have gotten modified by cell replacement techniques. Therefore, the verilog file needs to be modified using the ```write_verilog``` command. Then, the synthesis, floorplan and placement is run again. 
-      * **2. To run CTS use the below command:**
-         ```
-         run_cts
-         ```
-          ![cts_term](<img width="738" height="258" alt="Screenshot from 2025-07-16 16-41-19" src="https://github.com/user-attachments/assets/9d952a64-27f8-464a-8b9d-470021808a09" />)
-
-      * **3. Slack report post_cts:**
-
-         ![slackreport_cts](https://user-images.githubusercontent.com/110079631/187499991-2c1315eb-5f4c-4555-b962-7c5eacdc20f0.png)
-
-      * **4. Power report post_cts:**
-
-         ![power_cts](https://user-images.githubusercontent.com/110079631/187500327-50253964-e644-452e-ab6e-3743d53630e8.png)
-
-      * **5. Clock skew report post_cts:**
-
-         <img width="518" alt="Screenshot 2022-08-30 at 10 36 14 PM" src="https://user-images.githubusercontent.com/110079631/187500933-8ed32076-aa28-416b-8e2f-a156f7bdfb4c.png">
 
     
   - ***8 . ROUTING***
