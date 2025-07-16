@@ -559,7 +559,7 @@ Here we are going to customise our layout by including our custom made **sky130_
         
  - **Total power report:-**
  
-   <img width="562" alt="Screenshot 2022-09-27 at 10 38 03 PM" src="https://user-images.githubusercontent.com/110079631/192591595-1bccb271-899f-42e6-89a4-e7af87deadba.png">
+   <img width="577" height="219" alt="Screenshot from 2025-07-16 17-21-27" src="https://github.com/user-attachments/assets/a516584e-e98f-4d03-898b-8e32119e878f" />
 
 
 
