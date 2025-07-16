@@ -483,7 +483,8 @@ Here we are going to customise our layout by including our custom made **sky130_
         ```
         run_routing
         ```
-         ![rout_term](https://user-images.githubusercontent.com/110079631/187501879-562c5dca-0fbb-4e62-8554-21f24ffbde1e.png)
+         ![rout_term](<img width="735" height="554" alt="Screenshot from 2025-07-16 16-38-05" src="https://github.com/user-attachments/assets/e37fb52e-aafb-494a-84ef-1b0f66561557" />
+)
 
       * **4. *Do know*  in routing stage**
          1. `run_routing` - To start the routing
@@ -519,8 +520,8 @@ Here we are going to customise our layout by including our custom made **sky130_
           ![slackreport_routing](https://user-images.githubusercontent.com/110079631/187504503-2eca5efa-beb3-4009-b452-ad443f3a45df.png)
     
        * **10. Area using `box` command:**
+<img width="578" height="218" alt="Screenshot from 2025-07-16 16-35-30" src="https://github.com/user-attachments/assets/1c1dfe20-0243-4679-8c23-669c9ecf9c1f" />
 
-          ![box_cmd]<img width="578" height="218" alt="Screenshot from 2025-07-16 16-35-30" src="https://github.com/user-attachments/assets/4124a5ac-f80c-443f-8ff9-ed74b8f2dce4" />
 
 
 
