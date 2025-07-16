@@ -485,7 +485,8 @@ Here we are going to customise our layout by including our custom made **sky130_
         ```
         <img width="735" height="554" alt="Screenshot from 2025-07-16 16-38-05" src="https://github.com/user-attachments/assets/ff156d84-1196-4d94-afba-6165a6971ced" />
 
-* **4. *Do know*  in routing stage**
+
+      * **4. *Do know*  in routing stage**
          1. `run_routing` - To start the routing
          2. The options for routing can be set in the `config.tcl` file. 
          3. The optimisations in routing can also be done by specifying the routing strategy to use different version of `TritonRoute Engine`. There is a trade0ff between the optimised route and the runtime for routing.
@@ -497,9 +498,10 @@ Here we are going to customise our layout by including our custom made **sky130_
        * **5. Layout in magic tool post routing:** the design can be viewed on magic within ```results/routing``` directory.
          Run the follwing command in that directory:
          ```
-         magic -T /home/nitish/OpenLane/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.nom.lef def read iiitb_rv32i.def &
+         magic -T /home/vinay/OpenLane/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.nom.lef def read iiitb_rv32i.def &
          ```
           ![routing_mag](https://user-images.githubusercontent.com/110079631/187505236-a98b9faf-89e3-455c-b3e7-83ffa644428a.png)
+
 
 
 
