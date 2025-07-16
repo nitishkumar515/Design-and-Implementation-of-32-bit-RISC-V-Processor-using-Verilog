@@ -497,7 +497,7 @@ Here we are going to customise our layout by including our custom made **sky130_
        * **5. Layout in magic tool post routing:** the design can be viewed on magic within ```results/routing``` directory.
          Run the follwing command in that directory:
          ```
-         magic -T /home/vinay/OpenLane/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.nom.lef def read iiitb_rv32i.def &
+         magic -T /home/nitish/OpenLane/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.nom.lef def read iiitb_rv32i.def &
          ```
           ![routing_mag](https://user-images.githubusercontent.com/110079631/187505236-a98b9faf-89e3-455c-b3e7-83ffa644428a.png)
 
