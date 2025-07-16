@@ -525,7 +525,7 @@ Here we are going to customise our layout by including our custom made **sky130_
 ### Parameters:-
  - **Post-synthesis Gate count:-**
  
-    <img width="552" alt="Screenshot 2022-09-27 at 10 38 22 PM" src="https://user-images.githubusercontent.com/110079631/192591779-9b9adbf5-7b66-4ee0-bb3d-d16047212d34.png">
+    <img width="577" height="647" alt="Screenshot from 2025-07-16 17-24-55" src="https://github.com/user-attachments/assets/0614dff1-fc82-4ecb-8fca-c535f7c3d54b" />
 
 
  - **Area using Box command:-**
@@ -546,7 +546,7 @@ Here we are going to customise our layout by including our custom made **sky130_
 
  - **flip-flop to standard cell ratio:-**
  
-   <img width="548" alt="Screenshot 2022-09-27 at 10 38 40 PM" src="https://user-images.githubusercontent.com/110079631/192591650-db436789-d7d3-41b0-ba5a-2d64fe73637a.png">
+   <img width="578" height="699" alt="Screenshot from 2025-07-16 17-23-36" src="https://github.com/user-attachments/assets/85d6677b-ccc0-49a9-ad80-adcf25bb2bb2" />
 
    
 ```
