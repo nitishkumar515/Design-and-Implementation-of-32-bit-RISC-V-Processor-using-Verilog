@@ -343,8 +343,7 @@ Here we are going to customise our layout by including our custom made **sky130_
         sudo make mount
         ./flow.tcl -interactive
         ```
-        ![inti_term](<img width="747" height="217" alt="Screenshot from 2025-07-16 16-47-36" src="https://github.com/user-attachments/assets/93c46a7c-f892-4dd5-ba7e-1bd5bc206ff0" />
-)
+        ![inti_term](<img width="747" height="217" alt="Screenshot from 2025-07-16 16-47-36" src="https://github.com/user-attachments/assets/93c46a7c-f892-4dd5-ba7e-1bd5bc206ff0" />)
 
       - **2. Preparing the design and including the lef files:**
         The commands to prepare the design and overwite in a existing run folder the reports and results along with the command to include the lef files is given below:
@@ -353,13 +352,11 @@ Here we are going to customise our layout by including our custom made **sky130_
         set lefs [glob $::env(DESIGN_DIR)/src/*.lef]
         add_lefs -src $lefs
         ```
-        ![prep_term](<img width="726" height="408" alt="Screenshot from 2025-07-16 16-46-51" src="https://github.com/user-attachments/assets/4359be76-6055-4a12-bf83-e1bb5d28efd1" />
-)
+        ![prep_term](<img width="726" height="408" alt="Screenshot from 2025-07-16 16-46-51" src="https://github.com/user-attachments/assets/4359be76-6055-4a12-bf83-e1bb5d28efd1" />)
 
   - ***4 . SYNTHESIS:***
       * **1. The command to run the synthesis** is ```run_synthesis```.This runs the synthesis where yosys translates RTL into circuit using generic components and abc maps the circuit to Standard Cells.
-         ![syn_term](<img width="737" height="269" alt="Screenshot from 2025-07-16 16-45-11" src="https://github.com/user-attachments/assets/a48d3a7d-4076-465d-a494-771d8a1554c2" />
-)
+         ![syn_term](<img width="737" height="269" alt="Screenshot from 2025-07-16 16-45-11" src="https://github.com/user-attachments/assets/a48d3a7d-4076-465d-a494-771d8a1554c2" />)
 
       * **2. The synthesized netlist** is present in the results folder and the stats are present in the reports folder as shown below:
         
@@ -397,8 +394,7 @@ Here we are going to customise our layout by including our custom made **sky130_
         ```Note: Usually, vertical metal layer and horizontal metal layer values will be 1 more than that specified in the file```
         
       * **3. To run the Floorplan use the command:** `run_floorplan`.
-         ![fp_term](<img width="732" height="354" alt="Screenshot from 2025-07-16 16-44-05" src="https://github.com/user-attachments/assets/e6f2a464-9450-452f-8a1d-78fc8b5024ad" />
-)
+         ![fp_term](<img width="732" height="354" alt="Screenshot from 2025-07-16 16-44-05" src="https://github.com/user-attachments/assets/e6f2a464-9450-452f-8a1d-78fc8b5024ad" />)
 
       * **4. Post the floorplan** run, a `.def` file will have been created within the `results/floorplan` directory. 
         We may review floorplan files by checking the `floorplan.tcl`. 
@@ -421,8 +417,7 @@ Here we are going to customise our layout by including our custom made **sky130_
         2. Detailed Placement: It alters the position of cells post global placement so as to legalise them.
          
       * **2. To run the Placement use the command:** `run_Placement`.
-         ![pl_term](<img width="732" height="354" alt="Screenshot from 2025-07-16 16-43-08" src="https://github.com/user-attachments/assets/0f9f39f0-33d8-468e-b25c-e99008527144" />
-)
+         ![pl_term](<img width="732" height="354" alt="Screenshot from 2025-07-16 16-43-08" src="https://github.com/user-attachments/assets/0f9f39f0-33d8-468e-b25c-e99008527144" />)
 
       * **3. Post placement:** the design can be viewed on magic within ```results/placement``` directory.
         Run the follwing command in that directory:
@@ -459,8 +454,7 @@ Here we are going to customise our layout by including our custom made **sky130_
          ```
          run_cts
          ```
-          ![cts_term](<img width="738" height="258" alt="Screenshot from 2025-07-16 16-41-19" src="https://github.com/user-attachments/assets/9d952a64-27f8-464a-8b9d-470021808a09" />
-)
+          ![cts_term](<img width="738" height="258" alt="Screenshot from 2025-07-16 16-41-19" src="https://github.com/user-attachments/assets/9d952a64-27f8-464a-8b9d-470021808a09" />)
 
       * **3. Slack report post_cts:**
 
@@ -489,8 +483,7 @@ Here we are going to customise our layout by including our custom made **sky130_
         ```
         run_routing
         ```
-         ![rout_term](<img width="735" height="554" alt="Screenshot from 2025-07-16 16-38-05" src="https://github.com/user-attachments/assets/e37fb52e-aafb-494a-84ef-1b0f66561557" />
-)
+         ![rout_term](<img width="735" height="554" alt="Screenshot from 2025-07-16 16-38-05" src="https://github.com/user-attachments/assets/e37fb52e-aafb-494a-84ef-1b0f66561557" />)
 
       * **4. *Do know*  in routing stage**
          1. `run_routing` - To start the routing
@@ -526,7 +519,7 @@ Here we are going to customise our layout by including our custom made **sky130_
           ![slackreport_routing](https://user-images.githubusercontent.com/110079631/187504503-2eca5efa-beb3-4009-b452-ad443f3a45df.png)
     
        * **10. Area using `box` command:**
-     ![box_cmd](https://github.com/user-attachments/assets/1c1dfe20-0243-4679-8c23-669c9ecf9c1f.png)
+      ![box_cmd](https://user-images.githubusercontent.com/110079631/187504758-263b0cd8-11a1-4fa4-9c86-9b941ef62c5e.png)
 
 
 
