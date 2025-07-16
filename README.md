@@ -343,7 +343,7 @@ Here we are going to customise our layout by including our custom made **sky130_
         sudo make mount
         ./flow.tcl -interactive
         ```
-        ![inti_term](<img width="747" height="217" alt="Screenshot from 2025-07-16 16-47-36" src="https://github.com/user-attachments/assets/93c46a7c-f892-4dd5-ba7e-1bd5bc206ff0" />)
+        <img width="747" height="217" alt="Screenshot from 2025-07-16 16-47-36" src="https://github.com/user-attachments/assets/795f8ea2-f1f9-4765-9486-493dbcefcfec" />
 
       - **2. Preparing the design and including the lef files:**
         The commands to prepare the design and overwite in a existing run folder the reports and results along with the command to include the lef files is given below:
@@ -352,7 +352,8 @@ Here we are going to customise our layout by including our custom made **sky130_
         set lefs [glob $::env(DESIGN_DIR)/src/*.lef]
         add_lefs -src $lefs
         ```
-        ![prep_term](<img width="726" height="408" alt="Screenshot from 2025-07-16 16-46-51" src="https://github.com/user-attachments/assets/4359be76-6055-4a12-bf83-e1bb5d28efd1" />)
+        <img width="726" height="408" alt="Screenshot from 2025-07-16 16-46-51" src="https://github.com/user-attachments/assets/8fde757b-5d42-4ae8-8bcb-f272547e0e58" />
+
 
   - ***4 . SYNTHESIS:***
       * **1. The command to run the synthesis** is ```run_synthesis```.This runs the synthesis where yosys translates RTL into circuit using generic components and abc maps the circuit to Standard Cells.
