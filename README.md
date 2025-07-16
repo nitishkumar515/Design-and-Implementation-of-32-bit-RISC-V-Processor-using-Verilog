@@ -502,6 +502,7 @@ Here we are going to customise our layout by including our custom made **sky130_
           ![routing_mag](https://user-images.githubusercontent.com/110079631/187505236-a98b9faf-89e3-455c-b3e7-83ffa644428a.png)
 
 
+
        * **6. sky130_vsdinv cell post routing:**
 
           ![vsd_rout_mag](https://user-images.githubusercontent.com/110079631/187503820-c11ab19e-e9f8-473d-8647-b0038fac1b83.png)
@@ -521,6 +522,7 @@ Here we are going to customise our layout by including our custom made **sky130_
        * **10. Area using `box` command:**
 
           ![box_cmd](https://user-images.githubusercontent.com/110079631/187504758-263b0cd8-11a1-4fa4-9c86-9b941ef62c5e.png)
+  
 
 ### Parameters:-
  - **Post-synthesis Gate count:-**
