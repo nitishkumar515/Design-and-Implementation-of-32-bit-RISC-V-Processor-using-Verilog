@@ -49,18 +49,18 @@ This project provides an insight into the working of a few important instruction
 - **To clone the repository and download the netlist files for simulation , enter the following commands in your terminal.**
 
  ```
- $ git clone https://github.com/vinayrayapati/iiitb_rv32i
+ $ git clone https://github.com/nitishkumar515/Design-and-Implementation-of-32-bit-RISC-V-Processor-using-Verilog
  $ cd iiitb_rv32i
  ```
 - **To simulate and run the verilog code , enter the following commands in your terminal.**
 
 ```
-$ iverilog -o iiitb_rv32i iiitb_rv32i.v iiitb_rv32i_tb.v
-$ ./iiitb_rv32i
+$ iverilog -o IIIB_rv32i IIITB_rv32i.v IIITB_rv32i_tb.v
+$ ./IIITB_rv32i
 ```
 - **To see the output waveform in gtkwave, enter the following commands in your terminal.**
 
-`$ gtkwave iiitb_rv32i.vcd`
+`$ gtkwave IIITB_rv32i.vcd`
 
 ### 4.3 The output waveform
 
@@ -175,7 +175,7 @@ Folllowing are the commands to run the GLS simulation:
 ```
 iverilog -DFUNCTIONAL -DUNIT_DELAY=#1 ../verilog_model/primitives.v ../verilog_model/sky130_fd_sc_hd.v iiitb_rv32i_synth.v iiitb_rv32i_tb.v
 ./a.out
-gtkwave iiitb_rv32i.vcd
+gtkwave IIITB_rv32i.vcd
 ```
 The gtkwave output for the netlist should match the output waveform for the RTL design file. As netlist and design code have same set of inputs and outputs, we can use the same testbench and compare the waveforms.
 
@@ -266,15 +266,15 @@ Here we are generating the layout in the non-interactive mode or the automatic m
   ```
   $   cd OpenLane/
   $   cd designs/
-  $   mkdir iiitb_iiitb_rv32i
-  $   cd iiitb_iiitb_rv32i/
-  $   wget https://raw.githubusercontent.com/vinayrayapati/iiitb_rv32i/main/config.json
+  $   mkdir IIITB_IIITB_rv32i
+  $   cd IIITB_IIITB_rv32i/
+  $   wget https://raw.githubusercontent.com/nitishkumar515/IIITB_rv32i/main/config.json
   $   mkdir src
   $   cd src/
-  $   wget https://raw.githubusercontent.com/vinayrayapati/iiitb_rv32i/main/iiitb_rv32i.v
+  $   wget https://raw.githubusercontent.com/nitishkumar515/IIITB_rv32i/main/IIITB_rv32i.v
   $   cd ../../../
   $   sudo make mount
-  $   ./flow.tcl -design iiitb_rv32i
+  $   ./flow.tcl -design IIITB_rv32i
   ```
 - To see the layout we use a tool called magic which we installed earlier.Type the following command in the terminal opened in the path to your design/runs/latest run folder/final/def/
  
