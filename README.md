@@ -526,7 +526,7 @@ Here we are going to customise our layout by including our custom made **sky130_
           ![slackreport_routing](https://user-images.githubusercontent.com/110079631/187504503-2eca5efa-beb3-4009-b452-ad443f3a45df.png)
     
        * **10. Area using `box` command:**
-<img width="578" height="218" alt="Screenshot from 2025-07-16 16-35-30" src="https://github.com/user-attachments/assets/1c1dfe20-0243-4679-8c23-669c9ecf9c1f" />
+     ![box_cmd](https://github.com/user-attachments/assets/1c1dfe20-0243-4679-8c23-669c9ecf9c1f.png)
 
 
 
