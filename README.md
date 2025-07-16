@@ -549,22 +549,25 @@ Here we are going to customise our layout by including our custom made **sky130_
 
 
 
-### Author
+## Author
  - **Nitish Kumar**
 
-### Contributors
- -  Pruthvi Parate
- - Kunal Ghosh
+## Word of Thanks
+I sciencerly thank **Mr. Kunal Gosh(Founder/VSD)**
 
-### Acknowledgments
- - Kunal Ghosh, Director, VSD Corp. Pvt. Ltd.
- - Dr.Madhav Rao, ECE Department, IIIT Bangalore.
+I sciencerly thank **Mr.Mayank Kabra,Founder,Chipcron Pvt.Ltd.**
 
-### References
- - Jim Ledin “Modern Computer Architecture and Organisation" (2022)
+## Acknowledgement
 
-### Contact Information
- - Nitish Kumar,Post-Graduate student,International Institute of Information Technology Bangalore,r.nitish99@gmail.com
- - Kunal Ghosh, Director, VSD Corp. Pvt. Ltd.,kunalghosh@gmail.com
- - Dr.Madhav Rao, ECE Department, IIIT Bangalore,mr@iiitb.ac.in
+- Skywater Foundry
+- Pruthvi Parate
+- Bhargav DV,MS IIITB
+- alwin Shaju IIITB
+  
+## Reference 
 
+- https://github.com/alwinshaju08/
+- https://github.com/The-OpenROAD-Project/OpenSTA.git
+- https://github.com/kunalg123
+- https://www.vsdiat.com
+- https://github.com/S
