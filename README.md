@@ -483,7 +483,7 @@ Here we are going to customise our layout by including our custom made **sky130_
         ```
         run_routing
         ```
-        ![run_routing](https://github.com/user-attachments/assets/44b5ae34-db5d-4fd5-ba23-4d20b41c51a0.png)
+        ![](https://github.com/user-attachments/assets/44b5ae34-db5d-4fd5-ba23-4d20b41c51a0.png)
 
       * **4. *Do know*  in routing stage**
          1. `run_routing` - To start the routing
