@@ -520,27 +520,26 @@ Here we are going to customise our layout by including our custom made **sky130_
     
        * **10. Area using `box` command:**
 
-          ![box_cmd](https://user-images.githubusercontent.com/110079631/187504758-263b0cd8-11a1-4fa4-9c86-9b941ef62c5e.png)
+          ![box_cmd]<img width="578" height="218" alt="Screenshot from 2025-07-16 16-35-30" src="https://github.com/user-attachments/assets/4124a5ac-f80c-443f-8ff9-ed74b8f2dce4" />
+
 
 
 ### Author
- - **Vinay Rayapati**
+ - **Nitish Kumar**
 
 ### Contributors
- - Vinay Rayapati
+ -  Pruthvi Parate
  - Kunal Ghosh
 
 ### Acknowledgments
  - Kunal Ghosh, Director, VSD Corp. Pvt. Ltd.
- - Dr.Murali, Co-ordinator(M.Tech), IIIT Bangalore.
  - Dr.Madhav Rao, ECE Department, IIIT Bangalore.
 
 ### References
  - Jim Ledin “Modern Computer Architecture and Organisation" (2022)
 
 ### Contact Information
- - Vinay Rayapati,Post-Graduate student,International Institute of Information Technology Bangalore,vinayrayapati@outlook.com
+ - Nitish Kumar,Post-Graduate student,International Institute of Information Technology Bangalore,r.nitish99@gmail.com
  - Kunal Ghosh, Director, VSD Corp. Pvt. Ltd.,kunalghosh@gmail.com
- - Dr.Murali, Co-ordinator(M.Tech), IIIT Bangalore,coordinator-mtech@iiitb.ac.in
  - Dr.Madhav Rao, ECE Department, IIIT Bangalore,mr@iiitb.ac.in
 
